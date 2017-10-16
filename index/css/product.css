@@ -1,0 +1,287 @@
+.midWidth {
+    width: 1030px;
+    margin: auto;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+h1, p, a, span {
+    font-family: "Microsoft YaHei";
+}
+
+.banner {
+    height: 500px;
+    width: 100%;
+    overflow: auto;
+    position: relative;
+    background: url("../img/banner-1-01.jpg") no-repeat 100% 100%;
+}
+
+.banner .animate {
+    width: 1030px;
+    margin: auto;
+    position: relative;
+}
+
+.banner .animate span {
+    width: 110px;
+    height: 28px;
+    line-height: 2;
+    font-size: 14px;
+}
+
+.banner .animate span:nth-of-type(1) {
+    position: absolute;
+    top: 200px;
+    left: 450px;
+}
+
+.banner .animate span:nth-of-type(2) {
+    position: absolute;
+    top: 200px;
+    left: 610px;
+}
+
+.banner .animate span:nth-of-type(3) {
+    position: absolute;
+    top: 200px;
+    left: 770px;
+}
+
+.banner ul {
+    height: 45px;
+    overflow: hidden;
+    width: 1030px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, .3);
+    /*filter:alpha(opacity=50);*/
+    /*-moz-opacity:0.5;*/
+    /*-khtml-opacity: 0.5;*/
+    /*opacity: 0.5;*/
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner ul li {
+    height: 45px;
+    line-height: 45px;
+
+}
+
+.banner ul li a::before {
+    content: url("../img/平台1.png");
+    padding-right: 15px;
+    margin-top: 15px;
+    vertical-align: text-top;
+}
+
+.banner ul li a {
+    height: inherit;
+    text-align: center;
+    line-height: 2;
+    color: antiquewhite;
+
+}
+
+.banner ul li a:hover {
+    background: #333;
+    color: #00b7d3;
+}
+
+.banner ul li a:hover::before {
+    content: url("../img/平台2.png");
+}
+
+.drop-down {
+    height: 45px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: -webkit-linear-gradient(to right, #646464, #6f7692, #646464);
+    background: -o-linear-gradient(to right, #646464, #6f7692, #646464);
+    background: -moz-linear-gradient(to right, #646464, #6f7692, #646464);
+    background: linear-gradient(to right, #646464, #6f7692, #646464);
+}
+
+.drop-down img {
+    height: 18px;
+    margin-top: 15px;
+}
+
+.view-back {
+    width: 100%;
+    background: #f4f4f4;
+}
+
+.view {
+    display: flex;
+    justify-content: center;
+    width: 1030px;
+    margin: auto;
+}
+
+.view .view-left {
+    width: 450px;
+}
+
+.view .view-mid {
+    display: flex;
+    justify-content: center;
+    width: 130px;
+    background-color: white;
+    text-align: center;
+    border-left: 1px solid #c0c0c0;
+    border-right: 1px solid #c0c0c0;
+}
+
+.view .view-mid img {
+    margin: auto;
+}
+
+.view .view-mid .view-mid-left {
+    width: 64px;
+    border-right: 1px solid #999;
+}
+
+.view .view-mid .view-mid-left img {
+    margin-top: 240px;
+}
+
+.view .view-mid .view-mid-right {
+    width: 64px;
+}
+
+.view .view-mid .view-mid-right img {
+    margin-top: 130px;
+}
+
+.view .view-right {
+    width: 450px;
+}
+
+.panel-body {
+    height: 236px;
+    display: flex;
+    padding: 0;
+}
+
+.panel-footer {
+    height: 77px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.panel-education {
+    margin-top: 200px;
+}
+
+.panel-practice {
+    margin-top: 100px;
+}
+
+.panel-body-left {
+    height: inherit;
+    width: 450px;
+    /*background-color: #333333;*/
+}
+
+/*.panel-body-right {*/
+/*height: inherit;*/
+/*width: 30px;*/
+/*background-color: #ccc;*/
+/*}*/
+
+/*canvas.css*/
+
+.bannerP {
+    position: absolute;
+    top: 115px;
+    left: 430px;
+    font-size: 34px;
+    color: white;
+    display: none;
+    font-family: "微软简综艺", "思源黑体 CN Bold", sans-serif;
+}
+
+.label-info {
+    display: none;
+}
+
+canvas {
+    margin: 166px 0 0 10px;
+    position: absolute;
+}
+
+.circle-img {
+    /*margin: 136px 0 0 10px;*/
+    top: 95px;
+    left: 98px;
+    position: absolute;
+    z-index: 2;
+}
+
+#circle3, #circle4 {
+    opacity: .5;
+}
+
+#line {
+    margin: -5px 0 0 -185px;
+    width: 300px;
+    height: 265px;
+    /*border-bottom: 3px solid #26a9e0;*/
+    /*opacity: .5;*/
+
+}
+
+.circle-img {
+    position: absolute;
+    margin: 72px 0 0 138px;
+    display: none;
+
+}
+
+.panel3 {
+    margin-top: 202px;
+}
+
+.head-img {
+    margin-right: 250px;
+
+}
+
+.head-img:hover {
+    background-color: white;
+!important;
+}
+
+.head-img:active {
+    background-color: white;
+!important;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes blink-caret {
+    50% {
+        border-color: transparent;
+    }
+}
+
+.bannerP {
+    /*font:bold 200% Consolas,Monaco,monospace;*/
+    width: 16.5em;
+    /* fallback */
+    width: 30ch;
+    /* # of chars */
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 1.8s steps(18, end), /* # of steps = # of chars */ blink-caret .3s step-end infinite alternate;
+}
