@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Demo</title>
+    <!--    <link rel="stylesheet" href="css/normalize.css">-->
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/product-basicCloudPlatform.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+
+    <!--[if IE]>
+    <link rel="stylesheet" href="../css/product-basicCloudPlatform-ie.css">
+    <![endif]-->
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+
+    <![endif]-->
+</head>
+
+<body>
+
+<!--head-->
+<nav class="header navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <ul class="nav nav-tabs">
+            <!--<a class="navbar-brand" href="#">-->
+            <!--<img alt="logo" src="../img/logo.png">-->
+            <!--</a>-->
+            <li role="presentation"><a id="black" href="#">实时资讯</a></li>
+            <li role="presentation"><a href="#">团队介绍</a></li>
+            <li role="presentation"><a href="#">解决方案</a></li>
+            <li role="presentation" class="active"><a href="#">产品</a></li>
+            <li role="presentation"><a href="#">首页</a></li>
+            <li role="presentation" style="margin-right: 250px;"><a href="#"><img alt="logo" src="../img/logo.png"></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="empty"></div>
+
+
+<!--banner-->
+<div class="banner">
+
+</div>
+<div class="banner-nav">
+    <ul id="cloudPlatform-nav" class="banner-nav nav nav-pills ">
+        <li class="firstLi" role="presentation"><a href="#">产品介绍<span class="glyphicon glyphicon-triangle-bottom"
+                                                                      aria-hidden="true"></span></a>
+        </li>
+        <li role="presentation"><a href="#deployment">产品部署图<span class="glyphicon glyphicon-triangle-bottom"
+                                                                 aria-hidden="true"></span></a></li>
+        <li role="presentation"><a href="#product">产品功能<span class="glyphicon glyphicon-triangle-bottom"
+                                                             aria-hidden="true"></span></a></li>
+        <li role="presentation"><a href="#technology">技术特点<span class="glyphicon glyphicon-triangle-bottom"
+                                                                aria-hidden="true"></span></a></li>
+        <li role="presentation"><a href="#platform">平台特点<span class="glyphicon glyphicon-triangle-bottom"
+                                                              aria-hidden="true"></span></a></li>
+        <li role="presentation"><a href="#apply">应用场景<span class="glyphicon glyphicon-triangle-bottom"
+                                                           aria-hidden="true"></span></a></li>
+    </ul>
+</div>
+<!--info-->
+<div class="info-back">
+    <div class="info">
+        <h1>产品介绍<span class="caption"><span class="line line-r"></span></span></h1>
+        <div class="info-main">
+            <div class="info-main-left">
+                <p>
+                    汉智基础云平台是一套云计算管理软件，通过使用多种虚拟化技术把各种硬件资源（服务器、网络、固态硬盘、硬盘和网络）进行融合形成弹性虚拟资源池，并且可以为用户构建完整的虚拟运算、存储、SDN网络的解决方案。</p>
+            </div>
+            <div class="info-main-right"></div>
+            <img src="../img/截图1.png" alt="实例">
+        </div>
+    </div>
+</div>
+
+<!--deployment-->
+<div class="deployment-back">
+    <div class="deployment" id="deployment" name="deployment">
+        <h1>产品部署图<span class="caption"><span class="line line-r"></span></span></h1>
+        <div class="deployment-main">
+            <div class="deployment-main-top">
+                <img class="deployment-main-item" src="../img/Product1.png" alt="">
+                <img class="deployment-main-item" src="../img/Product2.png" alt="">
+                <img class="deployment-main-item" src="../img/Product3.png" alt="">
+            </div>
+            <div class="deployment-main-top-text">
+                <p>多种计算资源</p>
+                <p>多种存储资源</p>
+                <p>多种网络资源</p>
+
+            </div>
+            <canvas id="myCanvas1" width="260" height="20"></canvas>
+            <canvas id="myCanvas2" width="588" height="20"></canvas>
+            <canvas id="myCanvas3" width="240" height="20"></canvas>
+            <canvas id="myCanvas4" width="260" height="20"></canvas>
+            <canvas id="myCanvas5" width="88" height="20"></canvas>
+            <canvas id="myCanvas6" width="240" height="20"></canvas>
+            <canvas id="myCanvas7" width="4" height="46"></canvas>
+            <canvas id="myCanvas8" width="4" height="46"></canvas>
+            <p class="logo-p"><img src="../img/logo资源%201.png" alt="logo">汉智基础云平台</p>
+            <img src="../img/logo2.png" alt="">
+            <div class="deployment-main-bottom-text">
+                <p>计算资源</p>
+                <p>存储资源</p>
+                <p>网络资源</p>
+            </div>
+            <div class="deployment-main-bottom">
+                <img class="deployment-main-item" src="../img/Product4.png" alt="">
+                <img class="deployment-main-item" src="../img/Product5.png" alt="">
+                <img class="deployment-main-item" src="../img/Product6.png" alt="">
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+<!--platform-->
+<div class="platform-back">
+    <div class="platform" id="platform" name="platform">
+        <h1>平台特点<span class="caption"><span class="line line-r"></span></span></h1>
+        <div class="platform-top">
+            <div class="platform-item blue-weight platform-item1">
+                <img class="platform-item-img" src="../img/资源%201.png" alt="">
+                <div class="platform-item-text ">
+                    <h2>高安全</h2>
+                    <p>通过物理机分类部署、网络虚拟化、容器和SDN等技术实现应用和资源按照等保级别和用户需求进行隔离，保证应用和资源的安全性。</p>
+                </div>
+            </div>
+            <div class="platform-item blue-light">
+                <img class="platform-item-img" src="../img/资源%208.png" alt="">
+                <div class="platform-item-text">
+
+                    <h2>高性能</h2>
+                    <p>使用最新虚拟化技术和超融合架构保障系统的高效运行</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="platform-mid">
+            <div class="platform-item blue-light">
+                <img class="platform-item-img" src="../img/资源%203.png" alt="">
+                <div class="platform-item-text">
+                    <h2>高可靠</h2>
+                    <p>使用纠删码等技术保障即使在硬件设备出现故障的时候数据也不会丢失。</p>
+                </div>
+
+            </div>
+            <div class="platform-item blue-weight">
+                <img class="platform-item-img" src="../img/资源%207.png" alt="">
+                <div class="platform-item-text ">
+                    <h2>高可用</h2>
+                    <p>实时监控保障应用永久在线，自动迁移故障实例，保障服务高可用。</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="platform-bottom">
+            <div class="platform-item blue-weight">
+                <img class="platform-item-img" src="../img/资源%206.png" alt="">
+                <div class="platform-item-text">
+
+                    <h2>应用部署简便</h2>
+                    <p>使用编排和容器技术大大简化用户部署应用的任务。</p>
+                </div>
+            </div>
+            <div class="platform-item blue-light">
+                <img class="platform-item-img" src="../img/资源%209.png" alt="">
+                <div class="platform-item-text ">
+
+                    <h2>高资源利用率</h2>
+                    <p>使用容器和纠删码等技术充分利用系统资源。</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!--technology-->
+<div class="technology-back">
+    <div class="technology" id="technology" name="technology">
+        <h1>技术特点<span class="caption"><span class="line line-r"></span></span></h1>
+        <div class="technology-item">
+            <img src="../img/资源%2012.png" alt="">
+            <div class="technology-item-text">
+                <h2>超融合架构</h2>
+                <p>实现计算、存储、网络等资源的统一管理和调度，具有更大弹性的横向扩展能力，可以为数据中心带来最优的效率、更高的灵活性、更合理的规模、最小的成本和更强的数据保护。</p>
+            </div>
+        </div>
+        <div class="technology-item">
+            <img src="../img/资源%2012.png" alt="">
+            <div class="technology-item-text">
+                <h2>物理机聚合部署</h2>
+                <p>根据硬件资源的属性（如固态硬盘、GPU和内存等）对物理机进行聚合部署，实现通过物理机属性对虚拟机进行调度。</p>
+            </div>
+        </div>
+        <div class="technology-item">
+            <img src="../img/资源%2012.png" alt="">
+            <div class="technology-item-text">
+                <h2>应用资源编排</h2>
+                <p>按用户模板描述进行高级资源编排和完成复杂的应用部署任务。</p>
+            </div>
+        </div>
+        <div class="technology-item">
+            <img src="../img/资源%2012.png" alt="">
+            <div class="technology-item-text">
+                <h2>软件定义网络</h2>
+                <p>实现网络资源的统一管理、整合以及网络能力开放，按照上层应用需求提供网络资源及服务。</p>
+            </div>
+        </div>
+        <div class="technology-item">
+            <img src="../img/资源%2012.png" alt="">
+            <div class="technology-item-text">
+                <h2>容器虚拟化</h2>
+                <p>支持基于容器的轻量级虚拟化，更高资源利用效率，更快资源启动速度。</p>
+            </div>
+        </div>
+        <div class="technology-item">
+            <img src="../img/资源%2012.png" alt="">
+            <div class="technology-item-text">
+                <h2>虚拟机热迁移</h2>
+                <p>在不中断应用的情况下完成内存数据和虚拟机状态的转移，从而保证业务连续性，实现负载均衡，避免出现部分服务器过载情况。</p>
+            </div>
+        </div>
+        <div class="technology-item">
+            <img src="../img/资源%2012.png" alt="">
+            <div class="technology-item-text">
+                <h2>纠删码容错</h2>
+                <p>在保证数据可靠性的前提下，可以节省50%的存储成本。</p>
+            </div>
+        </div>
+        <div class="technology-item">
+            <img src="../img/资源%2012.png" alt="">
+            <div class="technology-item-text">
+                <h2>动态资源调度</h2>
+                <p>根据业务负载自动增加和收回系统资源，保证业务在不浪费资源的情况下连续正常运行。</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!--product-->
+<div class="product-back">
+    <div class="product" id="product" name="product">
+        <h1>产品功能<span class="caption"><span class="line line-r"></span></span></h1>
+        <h2>用户资源管理系统功能</h2>
+        <div class="product-item">
+            <div class="product-item-title">
+                <p>安全资源管理</p>
+            </div>
+            <div class="product-item-text">
+                <img src="../img/资源%201.png" alt="">
+                <img src="../img/资源%2014.png" alt="">
+                <p>防火墙创建</p>
+                <p>防火墙分配</p>
+                <p>定义安全规则</p>
+            </div>
+
+        </div>
+        <div class="product-item">
+            <div class="product-item-title">
+                <p>安全资源管理</p>
+            </div>
+            <div class="product-item-text">
+                <img src="../img/资源%201.png" alt="">
+                <img src="../img/资源%2014.png" alt="">
+                <p>防火墙创建</p>
+                <p>防火墙分配</p>
+                <p>定义安全规则</p>
+                <p>自动下载SSH密钥</p>
+            </div>
+
+        </div>
+        <div class="product-item">
+            <div class="product-item-title">
+                <p>存储资源管理</p>
+            </div>
+            <div class="product-item-text">
+                <img src="../img/资源%2015.png" alt="">
+                <img src="../img/资源%2014.png" alt="">
+                <p>存储盘创建</p>
+                <p>存储盘管理</p>
+                <p>存储盘备份</p>
+                <p>存储盘分配</p>
+            </div>
+
+        </div>
+        <div class="product-item">
+            <div class="product-item-title">
+                <p>网络资源管理</p>
+            </div>
+            <div class="product-item-text">
+                <img src="../img/资源%2016.png" alt="">
+                <img src="../img/资源%2014.png" alt="">
+                <p>自定义网络</p>
+                <p>自定义路由</p>
+                <p>自定义宽带</p>
+                <p>分配网络</p>
+                <p>分配公网IP</p>
+                <p>申请公网IP</p>
+            </div>
+
+        </div>
+        <div class="product-item">
+            <div class="product-item-title">
+                <p>用户应用部署</p>
+            </div>
+            <div class="product-item-text">
+                <img src="../img/资源%2017.png" alt="">
+                <img src="../img/资源%2014.png" alt="">
+                <p>定义应用环境</p>
+                <p>定义资源类型</p>
+                <p>部署应用环境</p>
+            </div>
+
+        </div>
+        <div class="product-item">
+            <div class="product-item-title">
+                <p>用户资源监控</p>
+            </div>
+            <div class="product-item-text">
+                <img src="../img/资源%2018.png" alt="">
+                <img src="../img/资源%2014.png" alt="">
+                <p>用户资源监控</p>
+                <p>用户资源告警</p>
+                <p>用户流量</p>
+                <p>磁盘IO监控</p>
+                <p>操作日志</p>
+            </div>
+
+        </div>
+
+        <h2>用户资源管理系统功能</h2>
+        <div class="product-item">
+            <div class="product-item-title">
+                <p>平台资源管理</p>
+            </div>
+            <div class="product-item-text">
+                <img src="../img/资源%2019.png" alt="">
+                <img src="../img/资源%2014.png" alt="">
+                <p>管理平台镜像</p>
+                <p>平台网络</p>
+                <p>平台规格回收</p>
+                <p>平台资源</p>
+            </div>
+
+        </div>
+        <div class="product-item">
+            <div class="product-item-title">
+                <p>用户资源分配</p>
+            </div>
+            <div class="product-item-text">
+                <img src="../img/资源%2020.png" alt="">
+                <img src="../img/资源%2014.png" alt="">
+                <p>用户资源分配</p>
+                <p>用户资源维护</p>
+            </div>
+
+        </div>
+        <div class="product-item">
+            <div class="product-item-title">
+                <p>平台服务管理</p>
+            </div>
+            <div class="product-item-text">
+                <img src="../img/资源%2021.png" alt="">
+                <img src="../img/资源%2014.png" alt="">
+                <p>平台服务管理</p>
+                <p>平台服务维护</p>
+
+            </div>
+
+        </div>
+        <div class="product-item">
+            <div class="product-item-title">
+                <p>平台资源监控</p>
+            </div>
+            <div class="product-item-text">
+                <img src="../img/资源%2022.png" alt="">
+                <img src="../img/资源%2014.png" alt="">
+                <p>统计用户资源</p>
+                <p>监控平台资源</p>
+                <p>平台资源告警</p>
+            </div>
+
+        </div>
+        <div class="product-item">
+            <div class="product-item-title">
+                <p>人员管理服务</p>
+            </div>
+            <div class="product-item-text">
+                <img src="../img/资源%2023.png" alt="">
+                <img src="../img/资源%2014.png" alt="">
+                <p>管理人员</p>
+                <p>分配角色</p>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!--apply-->
+<div class="apply-back">
+    <div class="apply" id="apply" name="apply">
+        <h1>应用场景<span class="caption"><span class="line line-r"></span></span></h1>
+        <div class="apply-top">
+            <div class="apply-item">
+                <h2>教育资源服务云平台</h2>
+                <div class="img">
+                    <img src="../img/资源%202apply.png" alt="">
+
+                </div>
+                <p class="mask">电子科技大学成都学院云计算系教学平台</p>
+            </div>
+            <div class="apply-item">
+                <h2>能源资源消费管理云平台</h2>
+                <div class="img">
+                    <img src="../img/资源%203apply.png" alt="">
+
+                </div>
+                <p class="mask">四川省公共机构能源资源管理云平台</p>
+
+            </div>
+            <div class="apply-item">
+                <h2>电子政务云平台</h2>
+                <div class="img">
+                    <img src="../img/资源%205apply.png" alt="">
+
+                </div>
+                <p class="mask">成都高新区电子政务云平台</p>
+
+            </div>
+        </div>
+        <div class="apply-bottom">
+            <div class="apply-item">
+                <h2>公路卡口大数据管理云平台</h2>
+                <div class="img">
+                    <img src="../img/资源%206apply.png" alt="">
+
+                </div>
+                <p class="mask">云南文山公路卡口大数据管理云平台</p>
+
+            </div>
+            <div class="apply-item">
+                <h2>基于北斗的位置服务云平台</h2>
+                <div class="img">
+                    <img src="../img/资源%207apply.png" alt="">
+
+                </div>
+                <p class="mask">振芯科技北斗三期运营云平台</p>
+
+            </div>
+            <div class="apply-item">
+                <h2>自然保护区大数据管理平台</h2>
+                <div class="img">
+                    <img src="../img/资源%208apply.png" alt="">
+
+                </div>
+                <p class="mask">卧龙数字化生态管理平台</p>
+
+            </div>
+
+        </div>
+
+
+    </div>
+</div>
+
+
+<footer>
+
+</footer>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+<script src="../js/product-basicCloudPlatform.js">
+</script>
+
+</body>
+
+</html>

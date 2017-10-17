@@ -1,0 +1,31 @@
+.info-main-left,.info-main-right,.platform-item,.platform-item-img,.platform-item-text,.technology-item>img,.technology-item-text,.product-item-title,.product-item-text,.product-item-text>img,.product-item-text>p,.apply-item{
+    float: left;
+}
+.firstLi{
+    margin-left:22%;
+}
+.technology-item,.product-back{
+    clear: both;
+}
+.deployment-main-top>img,.deployment-main-bottom>img{
+    margin:0 38px 0 55px;
+}
+.deployment-main-top-text>p,.deployment-main-bottom-text>p{
+    display: inline-block;
+
+}
+.technology-item-text>p{
+    width:780px;
+}
+.product-item-text{
+    height: 86px;
+}
+.apply-item{
+    width: 340px;
+}
+.platform-item-text>p{
+    width: 328px;
+}
+#cloudPlatform-nav{
+    visibility: hidden;
+}

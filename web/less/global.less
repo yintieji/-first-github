@@ -1,0 +1,38 @@
+@midWidth: 1030px;
+.midWidth{
+    width: @midWidth;
+    margin: auto;
+}
+*, *:after, *:before {
+    box-sizing: border-box;
+};
+.header{
+    width: 100%;
+    background-color: white;
+    img{
+        height: 23px;
+    }
+}
+.container{
+    .midWidth;
+    background-color: white;
+    ul{
+        width: @midWidth;
+        //display: flex;
+        //justify-content: space-between;
+        li{
+            width: 130px;
+            float: right;
+            text-align: center;
+            a{
+                height: 50px;
+                &:hover{
+                    color: white;
+                }
+            }
+        }
+    }
+}
+.empty{
+    height: 53px;
+}
