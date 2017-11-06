@@ -255,12 +255,12 @@ canvas {
 
 .head-img:hover {
     background-color: white;
-!important;
+
 }
 
 .head-img:active {
     background-color: white;
-!important;
+
 }
 
 @keyframes typing {
@@ -284,4 +284,11 @@ canvas {
     white-space: nowrap;
     overflow: hidden;
     animation: typing 1.8s steps(18, end), /* # of steps = # of chars */ blink-caret .3s step-end infinite alternate;
+}
+
+
+.SVGBox{
+    height: 345px;
+    width: 765px;
+    margin-left: 272px
 }

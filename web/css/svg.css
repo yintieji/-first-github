@@ -1,0 +1,1072 @@
+
+.SVGBox{
+    width: 765px;
+    height: 345px;
+    display: inline-block;
+}
+
+
+.cls-2 {
+    z-index: 1;
+    stroke-dasharray: 1937.05322265625px; /*表示虚线描边。数组是虚线数组。详解：http://www.w3cschool.cc/svg/svg-stroke.html。[0，图路径长]*/
+    stroke-dashoffset: 1937.05322265625px; /*表示虚线的起始偏移*/
+    -webkit-animation: polanim-2 2.3s linear forwards;
+    animation: polanim-2 2.3s linear forwards;
+    -moz-animation: polanim-2 2.3s linear forwards;
+    -o-animation: polanim-2 2.3s linear forwards;
+    -ms-animation: polanim-2 2.3s linear forwards;
+}
+.cls-3 {
+    stroke-dasharray: 890.51904296875px; /*表示虚线描边。数组是虚线数组。详解：http://www.w3cschool.cc/svg/svg-stroke.html。[0，图路径长]*/
+    stroke-dashoffset: 890.51904296875px; /*表示虚线的起始偏移*/
+    -webkit-animation: polanim-3 2.6s linear forwards;
+    animation: polanim-3 2.6s linear forwards;
+    -moz-animation: polanim-3 2.6s linear forwards;
+    -o-animation: polanim-3 2.6s linear forwards;
+    -ms-animation: polanim-3 2.6s linear forwards;
+}
+
+.cls-4 {
+    stroke-dasharray: 1937.05322265625px; /*表示虚线描边。数组是虚线数组。详解：http://www.w3cschool.cc/svg/svg-stroke.html。[0，图路径长]*/
+    stroke-dashoffset: 1937.05322265625px; /*表示虚线的起始偏移*/
+    -webkit-animation: polanim-3 2.5s linear forwards;
+    animation: polanim-4 2.5s linear forwards;
+    -moz-animation: polanim-4 2.5s linear forwards;
+    -o-animation: polanim-4 2.5s linear forwards;
+    -ms-animation: polanim-4 2.5s linear forwards;
+}
+
+
+.cls-5 {
+    stroke-dasharray: 1937.05322265625px; /*表示虚线描边。数组是虚线数组。详解：http://www.w3cschool.cc/svg/svg-stroke.html。[0，图路径长]*/
+    stroke-dashoffset: 1937.05322265625px; /*表示虚线的起始偏移*/
+    -webkit-animation: polanim-5 2.8s linear forwards;
+    animation: polanim-5 2.8s linear forwards;
+    -moz-animation: polanim-5 2.8s linear forwards;
+    -o-animation: polanim-5 2.8s linear forwards;
+    -ms-animation: polanim-5 2.8s linear forwards;
+}
+
+
+#id-6 {
+    z-index: 10;
+    stroke-dasharray: 1937.05322265625px; /*表示虚线描边。数组是虚线数组。详解：http://www.w3cschool.cc/svg/svg-stroke.html。[0，图路径长]*/
+    stroke-dashoffset: 1937.05322265625px; /*表示虚线的起始偏移*/
+    -webkit-animation: polanim-6 2.8s linear forwards;
+    animation: polanim-6 2.8s linear forwards;
+    -moz-animation: polanim-6 2.8s linear forwards;
+    -o-animation: polanim-6 2.8s linear forwards;
+    -ms-animation: polanim-6 2.8s linear forwards;
+}
+
+#id-1 {
+    z-index: 2;
+    stroke-dasharray: 1937.05322265625px; /*表示虚线描边。数组是虚线数组。详解：http://www.w3cschool.cc/svg/svg-stroke.html。[0，图路径长]*/
+    stroke-dashoffset: 1937.05322265625px; /*表示虚线的起始偏移*/
+    -webkit-animation: polanim-6 1.75s linear forwards;
+    animation: polanim-6 1.75s linear forwards;
+    -moz-animation: polanim-6 1.75s linear forwards;
+    -o-animation: polanim-6 1.75s linear forwards;
+    -ms-animation: polanim-6 1.75s linear forwards;
+}
+#id-2 {
+    z-index: 2;
+    stroke-dasharray: 1937.05322265625px; /*表示虚线描边。数组是虚线数组。详解：http://www.w3cschool.cc/svg/svg-stroke.html。[0，图路径长]*/
+    stroke-dashoffset: 1937.05322265625px; /*表示虚线的起始偏移*/
+    -webkit-animation: polanim-6 1.5s linear forwards;
+    animation: polanim-6 1.5s linear forwards;
+    -moz-animation: polanim-6 1.5s linear forwards;
+    -o-animation: polanim-6 1.5s linear forwards;
+    -ms-animation: polanim-6 1.5s linear forwards;
+}
+#id-3 {
+    z-index: 2;
+    stroke-dasharray: 1937.05322265625px; /*表示虚线描边。数组是虚线数组。详解：http://www.w3cschool.cc/svg/svg-stroke.html。[0，图路径长]*/
+    stroke-dashoffset: 1937.05322265625px; /*表示虚线的起始偏移*/
+    -webkit-animation: polanim-6 2s linear forwards;
+    animation: polanim-6 2s linear forwards;
+    -moz-animation: polanim-6 2s linear forwards;
+    -o-animation: polanim-6 2s linear forwards;
+    -ms-animation: polanim-6 2s linear forwards;
+}
+#id-4 {
+    z-index: 1;
+    stroke-dasharray: 1937.05322265625px; /*表示虚线描边。数组是虚线数组。详解：http://www.w3cschool.cc/svg/svg-stroke.html。[0，图路径长]*/
+    stroke-dashoffset: 1937.05322265625px; /*表示虚线的起始偏移*/
+    -webkit-animation: polanim-2 2.25s linear forwards;
+    animation: polanim-2 2.25s linear forwards;
+    -moz-animation: polanim-2 2.25s linear forwards;
+    -o-animation: polanim-2 2.25s linear forwards;
+    -ms-animation: polanim-2 2.25s linear forwards;
+}
+
+#id-5 {
+    z-index: 2;
+    stroke-dasharray: 1937.05322265625px; /*表示虚线描边。数组是虚线数组。详解：http://www.w3cschool.cc/svg/svg-stroke.html。[0，图路径长]*/
+    stroke-dashoffset: 1937.05322265625px; /*表示虚线的起始偏移*/
+    -webkit-animation: polanim-1 .75s linear forwards;
+    animation: polanim-1 .75s linear forwards;
+    -moz-animation: polanim-1 .75s linear forwards;
+    -o-animation: polanim-1 .75s linear forwards;
+    -ms-animation: polanim-1 .75s linear forwards;
+}
+.cls-6 {
+    stroke-dasharray: 1937.05322265625px; /*表示虚线描边。数组是虚线数组。详解：http://www.w3cschool.cc/svg/svg-stroke.html。[0，图路径长]*/
+    stroke-dashoffset: 1937.05322265625px; /*表示虚线的起始偏移*/
+    -webkit-animation: polanim-6 2.5s linear forwards;
+    animation: polanim-6 2.5s linear forwards;
+    -moz-animation: polanim-6 2.5s linear forwards;
+    -o-animation: polanim-6 2.5s linear forwards;
+    -ms-animation: polanim-6 2.5s linear forwards;
+}
+
+
+.cls-7 {
+    z-index: 11;
+    stroke-dasharray: 1937.05322265625px; /*表示虚线描边。数组是虚线数组。详解：http://www.w3cschool.cc/svg/svg-stroke.html。[0，图路径长]*/
+    stroke-dashoffset: 1937.05322265625px; /*表示虚线的起始偏移*/
+    -webkit-animation: polanim-7 3s linear forwards;
+    animation: polanim-7 3s linear forwards;
+    -moz-animation: polanim-7 3s linear forwards;
+    -o-animation: polanim-7 3s linear forwards;
+    -ms-animation: polanim-7 3s linear forwards;
+}
+
+#id-8 {
+    z-index: 9;
+    stroke-dasharray: 1937.05322265625px; /*表示虚线描边。数组是虚线数组。详解：http://www.w3cschool.cc/svg/svg-stroke.html。[0，图路径长]*/
+    stroke-dashoffset: 1937.05322265625px; /*表示虚线的起始偏移*/
+    -webkit-animation: polanim-8 6s linear forwards;
+    animation: polanim-8 6s linear forwards;
+    -moz-animation: polanim-8 6s linear forwards;
+    -o-animation: polanim-8 6s linear forwards;
+    -ms-animation: polanim-8 6s linear forwards;
+}
+.cls-8 {
+    z-index: 9;
+    stroke-dasharray: 1937.05322265625px; /*表示虚线描边。数组是虚线数组。详解：http://www.w3cschool.cc/svg/svg-stroke.html。[0，图路径长]*/
+    stroke-dashoffset: 1937.05322265625px; /*表示虚线的起始偏移*/
+    -webkit-animation: polanim-8 3s linear forwards;
+    animation: polanim-8 3s linear forwards;
+    -moz-animation: polanim-8 3s linear forwards;
+    -o-animation: polanim-8 3s linear forwards;
+    -ms-animation: polanim-8 3s linear forwards;
+}
+
+.cls-9 {
+    stroke-dasharray: 1937.05322265625px; /*表示虚线描边。数组是虚线数组。详解：http://www.w3cschool.cc/svg/svg-stroke.html。[0，图路径长]*/
+    stroke-dashoffset: 1937.05322265625px; /*表示虚线的起始偏移*/
+    -webkit-animation: polanim-9 1s linear forwards;
+    animation: polanim-9 1s linear forwards;
+    -moz-animation: polanim-9 1s linear forwards;
+    -o-animation: polanim-9 1s linear forwards;
+    -ms-animation: polanim-9 1s linear forwards;
+}
+
+.cls-10 {
+    stroke-dasharray: 1937.05322265625px; /*表示虚线描边。数组是虚线数组。详解：http://www.w3cschool.cc/svg/svg-stroke.html。[0，图路径长]*/
+    stroke-dashoffset: 1937.05322265625px; /*表示虚线的起始偏移*/
+    -webkit-animation: polanim-10 1.25s linear forwards;
+    animation: polanim-10 1.25s linear forwards;
+    -moz-animation: polanim-10 1.25s linear forwards;
+    -o-animation: polanim-10 1.25s linear forwards;
+    -ms-animation: polanim-10 1.25s linear forwards;
+}
+
+.cls-11 {
+    z-index:4;
+}
+.cls-12 {
+    z-index:5;
+}
+
+@-webkit-keyframes polanim-1 {
+    0% {
+        stroke-dasharray: 1937.05322265625;;
+        stroke-dashoffset: 1937.05322265625;
+        fill: transparent;
+    }
+    99% {
+        stroke-dasharray: 1937.05322265625, 0;
+        stroke-dashoffset: 0;
+        fill: transparent
+    }
+    100% {
+        stroke-dasharray: 1937.05322265625, 0;
+        stroke-dashoffset: 0;
+        fill: #2e3192;
+    }
+}
+
+@keyframes polanim-1 {
+    0% {
+        stroke-dasharray: 1937.05322265625px;
+        stroke-dashoffset: 1937.05322265625px;
+        fill: transparent;
+    }
+    99% {
+        stroke-dasharray: 1937.05322265625px, 0;
+        stroke-dashoffset: 0;
+        fill: transparent
+    }
+    100% {
+        stroke-dasharray: 1937.05322265625px, 0;
+        stroke-dashoffset: 0;
+        fill: #2e3192;
+    }
+}
+
+@-moz-keyframes polanim-1 {
+    0% {
+        stroke-dasharray: 1937.05322265625;;
+        stroke-dashoffset: 1937.05322265625;
+        fill: transparent;
+    }
+    99% {
+        stroke-dasharray: 1937.05322265625, 0;
+        stroke-dashoffset: 0;
+        fill: transparent
+    }
+    100% {
+        stroke-dasharray: 1937.05322265625, 0;
+        stroke-dashoffset: 0;
+        fill: #2e3192;
+    }
+}
+
+@-o-keyframes polanim-1 {
+    0% {
+        stroke-dasharray: 1937.05322265625;;
+        stroke-dashoffset: 1937.05322265625;
+        fill: transparent;
+    }
+    99% {
+        stroke-dasharray: 1937.05322265625, 0;
+        stroke-dashoffset: 0;
+        fill: transparent
+    }
+    100% {
+        stroke-dasharray: 1937.05322265625, 0;
+        stroke-dashoffset: 0;
+        fill: #2e3192;
+    }
+}
+
+
+
+
+
+
+@-webkit-keyframes polanim-2 {
+    0% {
+        stroke-dasharray: 1551.0511474609375;;
+        stroke-dashoffset: 1551.0511474609375;
+        fill: transparent;
+    }
+    99% {
+        stroke-dasharray: 1551.0511474609375, 0;
+        stroke-dashoffset: 0;
+        fill: transparent
+    }
+    100% {
+        stroke-dasharray: 1551.0511474609375, 0;
+        stroke-dashoffset: 0;
+        fill: #2963E2;
+    }
+}
+
+@keyframes polanim-2 {
+    0% {
+        stroke-dasharray: 1551.0511474609375px;
+        stroke-dashoffset: 1551.0511474609375px;
+        fill: transparent;
+    }
+    99% {
+        stroke-dasharray: 1551.0511474609375px, 0;
+        stroke-dashoffset: 0;
+        fill: transparent
+    }
+    100% {
+        stroke-dasharray: 1551.0511474609375px, 0;
+        stroke-dashoffset: 0;
+        fill: #2963E2;
+    }
+}
+
+@-moz-keyframes polanim-2 {
+    0% {
+        stroke-dasharray: 1551.0511474609375;;
+        stroke-dashoffset: 1551.0511474609375;
+        fill: transparent;
+    }
+    99% {
+        stroke-dasharray: 1551.0511474609375, 0;
+        stroke-dashoffset: 0;
+        fill: transparent
+    }
+    100% {
+        stroke-dasharray: 1551.0511474609375, 0;
+        stroke-dashoffset: 0;
+        fill: #2963E2;
+    }
+}
+
+@-o-keyframes polanim-2 {
+    0% {
+        stroke-dasharray: 1551.0511474609375;;
+        stroke-dashoffset: 1551.0511474609375;
+        fill: transparent;
+    }
+    99% {
+        stroke-dasharray: 1551.0511474609375, 0;
+        stroke-dashoffset: 0;
+        fill: transparent
+    }
+    100% {
+        stroke-dasharray: 1551.0511474609375, 0;
+        stroke-dashoffset: 0;
+        fill: #2963E2;
+    }
+}
+
+@-webkit-keyframes polanim-3 {
+    0% {
+        stroke-dasharray: 890.51904296875;;
+        stroke-dashoffset: 890.51904296875;
+        fill: transparent;
+    }
+    99% {
+        stroke-dasharray: 890.51904296875, 0;
+        stroke-dashoffset: 0;
+        fill: transparent
+    }
+    100% {
+        stroke-dasharray: 890.51904296875, 0;
+        stroke-dashoffset: 0;
+        fill: #b4b4b5;
+    }
+}
+
+@keyframes polanim-3 {
+    0% {
+        stroke-dasharray: 890.51904296875px;
+        stroke-dashoffset: 890.51904296875px;
+        fill: transparent;
+    }
+    99% {
+        stroke-dasharray: 890.51904296875px, 0;
+        stroke-dashoffset: 0;
+        fill: transparent
+    }
+    100% {
+        stroke-dasharray: 890.51904296875px, 0;
+        stroke-dashoffset: 0;
+        fill: #b4b4b5;
+    }
+}
+
+@-moz-keyframes polanim-3 {
+    0% {
+        stroke-dasharray: 890.51904296875;;
+        stroke-dashoffset: 890.51904296875;
+        fill: transparent;
+    }
+    99% {
+        stroke-dasharray: 890.51904296875, 0;
+        stroke-dashoffset: 0;
+        fill: transparent
+    }
+    100% {
+        stroke-dasharray: 890.51904296875, 0;
+        stroke-dashoffset: 0;
+        fill: #b4b4b5;
+    }
+}
+
+@-o-keyframes polanim-3 {
+    0% {
+        stroke-dasharray: 890.51904296875;;
+        stroke-dashoffset: 890.51904296875;
+        fill: transparent;
+    }
+    99% {
+        stroke-dasharray: 890.51904296875, 0;
+        stroke-dashoffset: 0;
+        fill: transparent
+    }
+    100% {
+        stroke-dasharray: 890.51904296875, 0;
+        stroke-dashoffset: 0;
+        fill: #b4b4b5;
+    }
+}
+
+@-webkit-keyframes polanim-4 {
+    0% {
+        stroke-dasharray: 1937.05322265625;;
+        stroke-dashoffset: 1937.05322265625;
+        fill: transparent;
+    }
+    99% {
+        stroke-dasharray: 1937.05322265625, 0;
+        stroke-dashoffset: 0;
+        fill: transparent
+    }
+    100% {
+        stroke-dasharray: 1937.05322265625, 0;
+        stroke-dashoffset: 0;
+        fill: #0086e2;
+    }
+}
+
+@keyframes polanim-4 {
+    0% {
+        stroke-dasharray: 1937.05322265625px;
+        stroke-dashoffset: 1937.05322265625px;
+        fill: transparent;
+    }
+    99% {
+        stroke-dasharray: 1937.05322265625px, 0;
+        stroke-dashoffset: 0;
+        fill: transparent
+    }
+    100% {
+        stroke-dasharray: 1937.05322265625px, 0;
+        stroke-dashoffset: 0;
+        fill: #0086e2;
+    }
+}
+
+@-moz-keyframes polanim-4 {
+    0% {
+        stroke-dasharray: 1937.05322265625;;
+        stroke-dashoffset: 1937.05322265625;
+        fill: transparent;
+    }
+    99% {
+        stroke-dasharray: 1937.05322265625, 0;
+        stroke-dashoffset: 0;
+        fill: transparent
+    }
+    100% {
+        stroke-dasharray: 1937.05322265625, 0;
+        stroke-dashoffset: 0;
+        fill: #0086e2;
+    }
+}
+
+@-o-keyframes polanim-4 {
+    0% {
+        stroke-dasharray: 1937.05322265625;;
+        stroke-dashoffset: 1937.05322265625;
+        fill: transparent;
+    }
+    99% {
+        stroke-dasharray: 1937.05322265625, 0;
+        stroke-dashoffset: 0;
+        fill: transparent
+    }
+    100% {
+        stroke-dasharray: 1937.05322265625, 0;
+        stroke-dashoffset: 0;
+        fill: #0086e2;
+    }
+}
+
+
+
+
+
+
+
+@-webkit-keyframes polanim-5 {
+    0% {
+        stroke-dasharray: 1937.05322265625;;
+        stroke-dashoffset: 1937.05322265625;
+        fill: transparent;
+    }
+    99% {
+        stroke-dasharray: 1937.05322265625, 0;
+        stroke-dashoffset: 0;
+        fill: transparent
+    }
+    100% {
+        stroke-dasharray: 1937.05322265625, 0;
+        stroke-dashoffset: 0;
+        fill: #9e9e9f;
+    }
+}
+
+@keyframes polanim-5 {
+    0% {
+        stroke-dasharray: 1937.05322265625px;
+        stroke-dashoffset: 1937.05322265625px;
+        fill: transparent;
+    }
+    99% {
+        stroke-dasharray: 1937.05322265625px, 0;
+        stroke-dashoffset: 0;
+        fill: transparent
+    }
+    100% {
+        stroke-dasharray: 1937.05322265625px, 0;
+        stroke-dashoffset: 0;
+        fill: #9e9e9f;
+    }
+}
+
+@-moz-keyframes polanim-5 {
+    0% {
+        stroke-dasharray: 1937.05322265625;;
+        stroke-dashoffset: 1937.05322265625;
+        fill: transparent;
+    }
+    99% {
+        stroke-dasharray: 1937.05322265625, 0;
+        stroke-dashoffset: 0;
+        fill: transparent
+    }
+    100% {
+        stroke-dasharray: 1937.05322265625, 0;
+        stroke-dashoffset: 0;
+        fill: #9e9e9f;
+    }
+}
+
+@-o-keyframes polanim-5 {
+    0% {
+        stroke-dasharray: 1937.05322265625;;
+        stroke-dashoffset: 1937.05322265625;
+        fill: transparent;
+    }
+    99% {
+        stroke-dasharray: 1937.05322265625, 0;
+        stroke-dashoffset: 0;
+        fill: transparent
+    }
+    100% {
+        stroke-dasharray: 1937.05322265625, 0;
+        stroke-dashoffset: 0;
+        fill: #9e9e9f;
+    }
+}
+
+
+
+
+
+@-webkit-keyframes polanim-6 {
+    0% {
+        stroke-dasharray: 1937.05322265625;;
+        stroke-dashoffset: 1937.05322265625;
+        fill: transparent;
+    }
+    99% {
+        stroke-dasharray: 1937.05322265625, 0;
+        stroke-dashoffset: 0;
+        fill: transparent
+    }
+    100% {
+        stroke-dasharray: 1937.05322265625, 0;
+        stroke-dashoffset: 0;
+        fill: #00adfe;
+    }
+}
+
+@keyframes polanim-6 {
+    0% {
+        stroke-dasharray: 1937.05322265625px;
+        stroke-dashoffset: 1937.05322265625px;
+        fill: transparent;
+    }
+    99% {
+        stroke-dasharray: 1937.05322265625px, 0;
+        stroke-dashoffset: 0;
+        fill: transparent
+    }
+    100% {
+        stroke-dasharray: 1937.05322265625px, 0;
+        stroke-dashoffset: 0;
+        fill: #00adfe;
+    }
+}
+
+@-moz-keyframes polanim-6 {
+    0% {
+        stroke-dasharray: 1937.05322265625;;
+        stroke-dashoffset: 1937.05322265625;
+        fill: transparent;
+    }
+    99% {
+        stroke-dasharray: 1937.05322265625, 0;
+        stroke-dashoffset: 0;
+        fill: transparent
+    }
+    100% {
+        stroke-dasharray: 1937.05322265625, 0;
+        stroke-dashoffset: 0;
+        fill: #00adfe;
+    }
+}
+
+@-o-keyframes polanim-6 {
+    0% {
+        stroke-dasharray: 1937.05322265625;;
+        stroke-dashoffset: 1937.05322265625;
+        fill: transparent;
+    }
+    99% {
+        stroke-dasharray: 1937.05322265625, 0;
+        stroke-dashoffset: 0;
+        fill: transparent
+    }
+    100% {
+        stroke-dasharray: 1937.05322265625, 0;
+        stroke-dashoffset: 0;
+        fill: #00adfe;
+    }
+}
+
+
+
+
+
+
+@-webkit-keyframes polanim-7 {
+    0% {
+        stroke-dasharray: 1937.05322265625;;
+        stroke-dashoffset: 1937.05322265625;
+        fill: transparent;
+    }
+    99% {
+        stroke-dasharray: 1937.05322265625, 0;
+        stroke-dashoffset: 0;
+        fill: transparent
+    }
+    100% {
+        stroke-dasharray: 1937.05322265625, 0;
+        stroke-dashoffset: 0;
+        fill: #17e7ff;
+    }
+}
+
+@keyframes polanim-7 {
+    0% {
+        stroke-dasharray: 1937.05322265625px;
+        stroke-dashoffset: 1937.05322265625px;
+        fill: transparent;
+    }
+    99% {
+        stroke-dasharray: 1937.05322265625px, 0;
+        stroke-dashoffset: 0;
+        fill: transparent
+    }
+    100% {
+        stroke-dasharray: 1937.05322265625px, 0;
+        stroke-dashoffset: 0;
+        fill: #17e7ff;
+    }
+}
+
+@-moz-keyframes polanim-7 {
+    0% {
+        stroke-dasharray: 1937.05322265625;;
+        stroke-dashoffset: 1937.05322265625;
+        fill: transparent;
+    }
+    99% {
+        stroke-dasharray: 1937.05322265625, 0;
+        stroke-dashoffset: 0;
+        fill: transparent
+    }
+    100% {
+        stroke-dasharray: 1937.05322265625, 0;
+        stroke-dashoffset: 0;
+        fill: #17e7ff;
+    }
+}
+
+@-o-keyframes polanim-7 {
+    0% {
+        stroke-dasharray: 1937.05322265625;;
+        stroke-dashoffset: 1937.05322265625;
+        fill: transparent;
+    }
+    99% {
+        stroke-dasharray: 1937.05322265625, 0;
+        stroke-dashoffset: 0;
+        fill: transparent
+    }
+    100% {
+        stroke-dasharray: 1937.05322265625, 0;
+        stroke-dashoffset: 0;
+        fill: #17e7ff;
+    }
+}
+
+
+
+
+@-webkit-keyframes polanim-8 {
+    0% {
+        stroke-dasharray: 1937.05322265625;;
+        stroke-dashoffset: 1937.05322265625;
+        fill: transparent;
+    }
+    99% {
+        stroke-dasharray: 1937.05322265625, 0;
+        stroke-dashoffset: 0;
+        fill: transparent
+    }
+    100% {
+        stroke-dasharray: 1937.05322265625, 0;
+        stroke-dashoffset: 0;
+        fill: #17e7ff;
+    }
+}
+
+@keyframes polanim-8 {
+    0% {
+        stroke-dasharray: 1937.05322265625px;
+        stroke-dashoffset: 1937.05322265625px;
+        fill: transparent;
+    }
+    99% {
+        stroke-dasharray: 1937.05322265625px, 0;
+        stroke-dashoffset: 0;
+        fill: transparent
+    }
+    100% {
+        stroke-dasharray: 1937.05322265625px, 0;
+        stroke-dashoffset: 0;
+        fill: #17e7ff;
+    }
+}
+
+@-moz-keyframes polanim-8 {
+    0% {
+        stroke-dasharray: 1937.05322265625;;
+        stroke-dashoffset: 1937.05322265625;
+        fill: transparent;
+    }
+    99% {
+        stroke-dasharray: 1937.05322265625, 0;
+        stroke-dashoffset: 0;
+        fill: transparent
+    }
+    100% {
+        stroke-dasharray: 1937.05322265625, 0;
+        stroke-dashoffset: 0;
+        fill: #17e7ff;
+    }
+}
+
+@-o-keyframes polanim-8 {
+    0% {
+        stroke-dasharray: 1937.05322265625;;
+        stroke-dashoffset: 1937.05322265625;
+        fill: transparent;
+    }
+    99% {
+        stroke-dasharray: 1937.05322265625, 0;
+        stroke-dashoffset: 0;
+        fill: transparent
+    }
+    100% {
+        stroke-dasharray: 1937.05322265625, 0;
+        stroke-dashoffset: 0;
+        fill: #17e7ff;
+    }
+}
+
+
+
+@-webkit-keyframes polanim-9 {
+    0% {
+        stroke-dasharray: 1937.05322265625;;
+        stroke-dashoffset: 1937.05322265625;
+        fill: transparent;
+    }
+    99% {
+        stroke-dasharray: 1937.05322265625, 0;
+        stroke-dashoffset: 0;
+        fill: transparent
+    }
+    100% {
+        stroke-dasharray: 1937.05322265625, 0;
+        stroke-dashoffset: 0;
+        fill: #f7931e;
+    }
+}
+
+@keyframes polanim-9 {
+    0% {
+        stroke-dasharray: 1937.05322265625px;
+        stroke-dashoffset: 1937.05322265625px;
+        fill: transparent;
+    }
+    99% {
+        stroke-dasharray: 1937.05322265625px, 0;
+        stroke-dashoffset: 0;
+        fill: transparent
+    }
+    100% {
+        stroke-dasharray: 1937.05322265625px, 0;
+        stroke-dashoffset: 0;
+        fill: #f7931e;
+    }
+}
+
+@-moz-keyframes polanim-9 {
+    0% {
+        stroke-dasharray: 1937.05322265625;;
+        stroke-dashoffset: 1937.05322265625;
+        fill: transparent;
+    }
+    99% {
+        stroke-dasharray: 1937.05322265625, 0;
+        stroke-dashoffset: 0;
+        fill: transparent
+    }
+    100% {
+        stroke-dasharray: 1937.05322265625, 0;
+        stroke-dashoffset: 0;
+        fill: #f7931e;
+    }
+}
+
+@-o-keyframes polanim-9 {
+    0% {
+        stroke-dasharray: 1937.05322265625;;
+        stroke-dashoffset: 1937.05322265625;
+        fill: transparent;
+    }
+    99% {
+        stroke-dasharray: 1937.05322265625, 0;
+        stroke-dashoffset: 0;
+        fill: transparent
+    }
+    100% {
+        stroke-dasharray: 1937.05322265625, 0;
+        stroke-dashoffset: 0;
+        fill: #f7931e;
+    }
+}
+
+
+@-webkit-keyframes polanim-10 {
+    0% {
+        stroke-dasharray: 1937.05322265625;;
+        stroke-dashoffset: 1937.05322265625;
+        fill: transparent;
+    }
+    99% {
+        stroke-dasharray: 1937.05322265625, 0;
+        stroke-dashoffset: 0;
+        fill: transparent
+    }
+    100% {
+        stroke-dasharray: 1937.05322265625, 0;
+        stroke-dashoffset: 0;
+        fill: #6280bc;
+    }
+}
+
+@keyframes polanim-10 {
+    0% {
+        stroke-dasharray: 1937.05322265625px;
+        stroke-dashoffset: 1937.05322265625px;
+        fill: transparent;
+    }
+    99% {
+        stroke-dasharray: 1937.05322265625px, 0;
+        stroke-dashoffset: 0;
+        fill: transparent
+    }
+    100% {
+        stroke-dasharray: 1937.05322265625px, 0;
+        stroke-dashoffset: 0;
+        fill: #6280bc;
+    }
+}
+
+@-moz-keyframes polanim-10 {
+    0% {
+        stroke-dasharray: 1937.05322265625;;
+        stroke-dashoffset: 1937.05322265625;
+        fill: transparent;
+    }
+    99% {
+        stroke-dasharray: 1937.05322265625, 0;
+        stroke-dashoffset: 0;
+        fill: transparent
+    }
+    100% {
+        stroke-dasharray: 1937.05322265625, 0;
+        stroke-dashoffset: 0;
+        fill: #6280bc;
+    }
+}
+
+@-o-keyframes polanim-10 {
+    0% {
+        stroke-dasharray: 1937.05322265625;;
+        stroke-dashoffset: 1937.05322265625;
+        fill: transparent;
+    }
+    99% {
+        stroke-dasharray: 1937.05322265625, 0;
+        stroke-dashoffset: 0;
+        fill: transparent
+    }
+    100% {
+        stroke-dasharray: 1937.05322265625, 0;
+        stroke-dashoffset: 0;
+        fill: #6280bc;
+    }
+}
+
+
+.arrow{
+    width: 19px;
+    height: 19px;
+    background-image: url("../img/leftArrow.png");
+    background-repeat: no-repeat;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+}
+
+/*#arrow2{
+    position: absolute;
+    top: 110px;
+    left: 557px;
+    -moz-transform:rotate(-90deg);
+    -webkit-transform:rotate(-90deg);
+    -o-transform:rotate(-90deg);
+    transform:rotate(-90deg);
+    display: none;
+}
+#arrow3{
+    position: absolute;
+    top: 385px;
+    left: 900px;
+    display: none;
+}
+#arrow1{
+     position: absolute;
+     -webkit-transform:scale(-1,1);
+     -moz-transform:scale(-1,1);
+     -o-transform:scale(-1,1);
+     transform:scale(-1,1);
+ }*/
+
+
+ .animation-edu-action {
+    transform: scale(0,0);
+    -ms-transform: scale(0,0);
+    -webkit-transform: scale(0,0);
+    -o-transform: scale(0,0);
+    -moz-transform: scale(0,0);
+    animation: soacle 0.5s 0.8s linear forwards;
+    -webkit-animation: soacle 0.5s 0.8s linear forwards;
+    animation-direction: inherit;
+}
+
+.animation-train-action {
+    transform: scale(0,0);
+    -ms-transform: scale(0,0);
+    -webkit-transform: scale(0,0);
+    -o-transform: scale(0,0);
+    -moz-transform: scale(0,0);
+    animation: soacle 0.5s 0.7s linear forwards;
+    -webkit-animation: soacle 0.5s 0.5s linear forwards;
+    animation-direction: inherit;
+}
+
+.animation-res-action {
+    transform: scale(0,0);
+    -ms-transform: scale(0,0);
+    -webkit-transform: scale(0,0);
+    -o-transform: scale(0,0);
+    -moz-transform: scale(0,0);
+    animation: soacle 0.5s 0.5s linear forwards;
+    -webkit-animation: soacle 0.5s 0.5s linear forwards;
+    animation-direction: inherit;
+}
+
+.ChFont{
+    width: 60px;
+    height: 60px;
+    font-size: 90%;
+    font-family: 微软雅黑;
+    color: #3394DD;
+    cursor: pointer;
+    margin-left: 1px;
+    margin-top: 12px;
+    font-weight: bold;
+}
+.ChFont:hover{
+    font-size: 92%
+}
+#ChFont1{
+    position: absolute;
+    display: none;
+}
+#ChFont3{
+    position: absolute;
+    display: none;
+}
+#ChFont2{
+    position: absolute;
+    display: none;
+}
+#choice1{
+    position: absolute;
+    top: 297px;
+    left: 17px;
+    display: none;
+}
+#choice2{
+    position: absolute;
+    top: 150px;
+    left: 529px;
+    display: none;
+}
+#choice3{
+    position: absolute;
+    top: 355px;
+    left: 813px;
+    display: none;
+}
+.choice{
+    border-radius:32px;
+    -moz-border-radius:32px;
+    -webkit-border-radius:32px;
+    -o-border-radius:32px;
+    border: 1px solid white;
+    background-color: white;
+    cursor: pointer;
+    width: 64px;
+    height: 64px;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+}
+#circle1 {
+    stroke-dasharray: 270,270;
+    stroke-dashoffset: 0;
+    -webkit-animation-fill-mode:forwards;
+}
+#circle2 {
+    stroke-dasharray: 270,270;
+    stroke-dashoffset: 0;
+    -webkit-animation-fill-mode:none;
+}
+#circle3 {
+    stroke-dasharray: 270,270;
+    stroke-dashoffset: 0;
+    -webkit-animation-fill-mode:forwards;
+}

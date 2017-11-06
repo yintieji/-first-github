@@ -1,0 +1,37 @@
+/**
+* animation
+*/
+.keyframes (@prefix,@name,@content) when (@prefix=def) {
+  @keyframes @name {
+    @content();
+  }
+}
+.keyframes (@prefix,@name,@content) when (@prefix=moz) {
+  @-moz-keyframes @name {
+    @content();
+  }
+}
+.keyframes (@prefix,@name,@content) when (@prefix=o) {
+  @-o-keyframes @name {
+    @content();
+  }
+}
+.keyframes (@prefix,@name,@content) when (@prefix=webkit) {
+  @-webkit-keyframes  @name{
+    @content();
+  }
+}
+.keyframes (@prefix,@name,@content) when (@prefix=all) {
+  .keyframes(moz,@name,@content);
+  .keyframes(o,@name,@content);
+  .keyframes(webkit,@name,@content);
+  .keyframes(def,@name,@content);
+}
+
+
+
+
+.keyframes(all,zindex,{
+  from{z-index :100;}
+  to{z-index: -100}
+});

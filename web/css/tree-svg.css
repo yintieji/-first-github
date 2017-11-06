@@ -15,10 +15,10 @@
 }
 .imgDiv{
     transform: scale(0,0);
-    -ms-transform: scale(0,0);	/* IE 9 */
-    -webkit-transform: scale(0,0);	/* Safari 和 Chrome */
-    -o-transform: scale(0,0);	/* Opera */
-    -moz-transform: scale(0,0);	/* Firefox */
+    -ms-transform: scale(0,0);  /* IE 9 */
+    -webkit-transform: scale(0,0);  /* Safari 和 Chrome */
+    -o-transform: scale(0,0);   /* Opera */
+    -moz-transform: scale(0,0); /* Firefox */
 }
 .imgDiv>img {
     width: 80%;
